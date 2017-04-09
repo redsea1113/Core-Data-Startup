@@ -35,10 +35,9 @@ class CommonMethods: NSObject {
     
     
 
-    //  This Function searches for a particular name
     /***********************************************************************
      *
-     * This function search core data
+     * This Function searches for a particular name
      *
      **********************************************************************/
 
@@ -74,7 +73,8 @@ class CommonMethods: NSObject {
     
     /***********************************************************************
      *
-     * This function search core data
+     * This function save a new record to the databasea and returns 
+     * true if the record is saved and false if not.
      *
      **********************************************************************/
 
@@ -97,7 +97,8 @@ class CommonMethods: NSObject {
     }
     /***********************************************************************
      *
-     * This function search core data
+     * This function update an existing record to the databasea and returns
+     * true if the record is saved and false if not.
      *
      **********************************************************************/
  
@@ -116,7 +117,7 @@ class CommonMethods: NSObject {
     }
     /***********************************************************************
      *
-     * This function search core data
+     * This function reads fields from a managed object
      *
      **********************************************************************/
     
@@ -135,7 +136,7 @@ class CommonMethods: NSObject {
     
     /***********************************************************************
      *
-     * This function search core data
+     * This function update a mamange object with values from variables
      *
      **********************************************************************/
 
@@ -154,7 +155,8 @@ class CommonMethods: NSObject {
     
     /***********************************************************************
      *
-     * This function search core data
+     * This function gets all records from the database and returns 
+     * an array of ManagedObject
      *
      **********************************************************************/
 
@@ -187,7 +189,8 @@ class CommonMethods: NSObject {
     
     /***********************************************************************
      *
-     * This function search core data
+     * This function search core data for a name that contains a string
+     * that is passed to this function
      *
      **********************************************************************/
     
