@@ -84,7 +84,7 @@ class CommonMethods: NSObject {
         
         contact = NSManagedObject(entity: entity, insertInto: managedContext)
      
-        self.updateRecord()
+        self.putData()
         // Save Context
         do {
             try managedContext.save()
@@ -104,7 +104,7 @@ class CommonMethods: NSObject {
  
     func update() -> Bool {
         
-        self.updateRecord()
+        self.putData()
        
         do {
             try managedContext.save()
@@ -121,7 +121,7 @@ class CommonMethods: NSObject {
      *
      **********************************************************************/
     
-    func updateInfo()
+    func getData()
     {
         
      
@@ -140,7 +140,7 @@ class CommonMethods: NSObject {
      *
      **********************************************************************/
 
-    func updateRecord()
+    func putData()
     {
         
         let img = UIImage(named: "logo.jpeg")
